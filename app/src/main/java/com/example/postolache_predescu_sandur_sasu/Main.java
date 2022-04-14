@@ -28,7 +28,7 @@ public class Main {
         City city = new City("city");
         System.out.println(city);
 
-        Service service = new Service(job,city,user, 54.20, "description 1", 12, "shadj");
+        Service service = new Service(job,city,user,12, "shadj");
         System.out.println(service);
 
         Language language = new Language("limba");
