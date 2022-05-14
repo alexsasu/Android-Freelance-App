@@ -11,17 +11,17 @@ import androidx.room.PrimaryKey;
 
 @Entity(tableName = "serviceTable",
         foreignKeys = {
-                @ForeignKey(
-                        entity = User.class,
-                        parentColumns = "idUser",
-                        childColumns = "id_fK_User",
-                        onDelete = ForeignKey.CASCADE,
-                        onUpdate = ForeignKey.CASCADE
-                        ),
+//                @ForeignKey(
+//                        entity = User.class,
+//                        parentColumns = {"idUser"},
+//                        childColumns = {"id_FK_User"},
+//                        onDelete = CASCADE,
+//                        onUpdate = CASCADE
+//                        ),
                 @ForeignKey(
                         entity = City.class,
-                        parentColumns = "idCity",
-                        childColumns = "id_Fk_City",
+                        parentColumns = {"idCity"},
+                        childColumns = {"id_Fk_City"},
                         onDelete = CASCADE,
                         onUpdate = CASCADE
                     ),
@@ -32,7 +32,8 @@ import androidx.room.PrimaryKey;
                         onDelete = CASCADE,
                         onUpdate = CASCADE
                 )},
-        indices = @Index("idService"))
+        indices = {@Index(value ={"idService"},unique = true),
+                    @Index(value = {"id_Fk_City","id_Fk_Job"})})
 public class Service {
     @PrimaryKey()
     private Integer idService;
@@ -80,6 +81,62 @@ public class Service {
         this.workSchedule = workSchedule;
 
         ++ newIdService;
+    }
+
+    public Service() {
+
+    }
+
+    public void setIdService(Integer idService) {
+        this.idService = idService;
+    }
+
+    public Integer getId_Fk_Job() {
+        return id_Fk_Job;
+    }
+
+    public void setId_Fk_Job(Integer id_Fk_Job) {
+        this.id_Fk_Job = id_Fk_Job;
+    }
+
+    public Integer getId_Fk_City() {
+        return id_Fk_City;
+    }
+
+    public void setId_Fk_City(Integer id_Fk_City) {
+        this.id_Fk_City = id_Fk_City;
+    }
+
+    public Integer getId_Fk_User() {
+        return id_Fk_User;
+    }
+
+    public void setId_Fk_User(Integer id_Fk_User) {
+        this.id_Fk_User = id_Fk_User;
+    }
+
+    public Integer getExperienceYears() {
+        return experienceYears;
+    }
+
+    public void setExperienceYears(Integer experienceYears) {
+        this.experienceYears = experienceYears;
+    }
+
+    public String getWorkSchedule() {
+        return workSchedule;
+    }
+
+    public void setWorkSchedule(String workSchedule) {
+        this.workSchedule = workSchedule;
+    }
+
+    public static Integer getNewIdService() {
+        return newIdService;
+    }
+
+    public static void setNewIdService(Integer newIdService) {
+        Service.newIdService = newIdService;
     }
 
     public Integer getIdService() {

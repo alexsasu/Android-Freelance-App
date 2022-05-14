@@ -68,6 +68,9 @@ public class CartAndHistory {
         ++ newIdUtility;
     }
 
+    public CartAndHistory(Integer utilityId) {
+    }
+
     @Override
     public String toString() {
         return "CartAndHistory{" +
@@ -80,7 +83,59 @@ public class CartAndHistory {
                 '}';
     }
 
+    public Integer getIdUtility() {
+        return idUtility;
+    }
 
+    public void setIdUtility(Integer idUtility) {
+        this.idUtility = idUtility;
+    }
 
+    public Integer getId_FK_User() {
+        return id_FK_User;
+    }
 
+    public void setId_FK_User(Integer id_FK_User) {
+        this.id_FK_User = id_FK_User;
+    }
+
+    public Integer getId_Fk_Service() {
+        return id_Fk_Service;
+    }
+
+    public void setId_Fk_Service(Integer id_Fk_Service) {
+        this.id_Fk_Service = id_Fk_Service;
+    }
+
+    public Integer getType() {
+        return type;
+    }
+
+    public void setType(Integer type) {
+        this.type = type;
+    }
+
+    public String getFeedback() {
+        return feedback;
+    }
+
+    public void setFeedback(String feedback) {
+        this.feedback = feedback;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public static Integer getNewIdUtility() {
+        return newIdUtility;
+    }
+
+    public static void setNewIdUtility(Integer newIdUtility) {
+        CartAndHistory.newIdUtility = newIdUtility;
+    }
 }

@@ -1,7 +1,5 @@
 package com.example.postolache_predescu_sandur_sasu.model;
 
-
-
 import static androidx.room.ForeignKey.CASCADE;
 
 import androidx.room.Entity;
@@ -26,16 +24,29 @@ import androidx.room.PrimaryKey;
                 onUpdate = CASCADE
         )})
 public class Speaks {
-//
-//    @ForeignKey
-//            (entity = User.class,
-//                    parentColumns = "idUser",
-//                    childColumns = "id_fk_User",
-//                    onDelete = CASCADE,
-//                    onUpdate = CASCADE
-//            )
+
     @PrimaryKey()
     public Integer id_fK_User;
+
+    public Speaks(Integer speaksIdFK) {
+
+    }
+
+    public Integer getId_fK_User() {
+        return id_fK_User;
+    }
+
+    public void setId_fK_User(Integer id_fK_User) {
+        this.id_fK_User = id_fK_User;
+    }
+
+    public Integer getId_fK_Language() {
+        return id_fK_Language;
+    }
+
+    public void setId_fK_Language(Integer id_fK_Language) {
+        this.id_fK_Language = id_fK_Language;
+    }
 
     @PrimaryKey()
     public Integer id_fK_Language;

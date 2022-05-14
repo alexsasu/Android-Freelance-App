@@ -46,7 +46,7 @@ public class User {
         this.firstName = firstName;
         this.lastName = lastName;
         this.description = null;
-        this.phoneNumber = null;
+        this.phoneNumber = phoneNumber;
 
         if (type == 1) {
             this.description = description;
@@ -54,6 +54,9 @@ public class User {
         }
 
         ++ newIdUser;
+    }
+
+    public User(String phoneNumber) {
     }
 
     public void setIdUser(Integer idUser) {
