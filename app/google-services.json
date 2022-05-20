@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "650981169406",
+    "project_id": "sdm-project-4a528",
+    "storage_bucket": "sdm-project-4a528.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650981169406:android:133c157e6b968f18026daf",
+        "android_client_info": {
+          "package_name": "com.example.postolache_predescu_sandur_sasu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650981169406-t46hjat8ge568ro73lukmhgcd884gv5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsPnr1CjGpKSxCI6wKzNy3iCXYkdc9vrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650981169406-t46hjat8ge568ro73lukmhgcd884gv5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
