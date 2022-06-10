@@ -8,7 +8,6 @@ import java.util.List;
 public class ViewUser extends AndroidViewModel {
 
     private UserRepository repository;
-
     private LiveData<List<User>> allUsers;
 
     public ViewUser(@NonNull Application application) {
