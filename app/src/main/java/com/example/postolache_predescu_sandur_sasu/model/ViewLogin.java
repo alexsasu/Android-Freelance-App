@@ -1,5 +1,4 @@
 package com.example.postolache_predescu_sandur_sasu.model;
-
 import android.app.Application;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
