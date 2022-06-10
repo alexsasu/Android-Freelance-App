@@ -14,18 +14,31 @@ public class UserRepository {
         dao = database.Dao();
         allUsers = dao.getAllUsers();
     }
+    public Integer getTypeByEmail(String emailul){return dao.getTypeByEmail(emailul);}
+
+    public User getUserInfoByEmail(String emailul){return dao.getUserInfoByEmail(emailul);}
 
     public void insert(User model) {
-        new InsertCourseAsyncTask(dao).execute(model);
+        new InsertUserAsyncTask(dao).execute(model);
     }
 
     public void update(User model) {
-        new UpdateCourseAsyncTask(dao).execute(model);
+        new UpdateUserAsyncTask(dao).execute(model);
+    }
+//////////////////////////////////////////
+   public void updateEmail(String firstNameIn,String lastNameIn,String descriptionIn,String phoneNumberIn,String email)
+    {
+         dao.updateEmail(firstNameIn,lastNameIn,descriptionIn,phoneNumberIn,email);
+
+    }
+///////////////////////////////////////
+    public void delete(User model) {
+        new DeleteUserAsyncTask(dao).execute(model);
     }
 
-    public void delete(User model) {
-        new DeleteCourseAsyncTask(dao).execute(model);
-    }
+
+///delete by email
+    public void deleteUserByEmail(String emailul){dao.deleteUserByEmail(emailul);}
 
     public void deleteAllUsers() {
         new DeleteAllUsersAsyncTask(dao).execute();
@@ -34,28 +47,32 @@ public class UserRepository {
     public LiveData<List<User>> getAllUsers() {
         return allUsers;
     }
-
-    private static class InsertCourseAsyncTask extends AsyncTask<User, Void, Void> {
+//nou modificat
+    public User getUserByEmail(String email){
+        return dao.getUserByEmail(email);
+    }
+    
+    private static class InsertUserAsyncTask extends AsyncTask<User, Void, Void> {
         private DaoUser dao;
 
-        private InsertCourseAsyncTask(DaoUser dao) {
+        private InsertUserAsyncTask(DaoUser dao) {
             this.dao = dao;
         }
 
         @Override
         protected Void doInBackground(User... model) {
-            // below line is use to insert our modal in dao.
             dao.insert(model[0]);
             return null;
         }
     }
 
-    private static class UpdateCourseAsyncTask extends AsyncTask<User, Void, Void> {
+    private static class UpdateUserAsyncTask extends AsyncTask<User, Void, Void> {
         private DaoUser dao;
 
-        private UpdateCourseAsyncTask(DaoUser dao) {
+        private UpdateUserAsyncTask(DaoUser dao) {
             this.dao = dao;
         }
+
 
         @Override
         protected Void doInBackground(User... models) {
@@ -64,10 +81,10 @@ public class UserRepository {
         }
     }
 
-    private static class DeleteCourseAsyncTask extends AsyncTask<User, Void, Void> {
+    private static class DeleteUserAsyncTask extends AsyncTask<User, Void, Void> {
         private DaoUser dao;
 
-        private DeleteCourseAsyncTask(DaoUser dao) {
+        private DeleteUserAsyncTask(DaoUser dao) {
             this.dao = dao;
         }
 

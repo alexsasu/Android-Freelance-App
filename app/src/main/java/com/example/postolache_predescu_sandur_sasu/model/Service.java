@@ -11,13 +11,13 @@ import androidx.room.PrimaryKey;
 
 @Entity(tableName = "serviceTable",
         foreignKeys = {
-//                @ForeignKey(
-//                        entity = User.class,
-//                        parentColumns = {"idUser"},
-//                        childColumns = {"id_FK_User"},
-//                        onDelete = CASCADE,
-//                        onUpdate = CASCADE
-//                        ),
+                @ForeignKey(
+                        entity = User.class,
+                        parentColumns = {"idUser"},
+                        childColumns = {"id_Fk_User"},
+                        onDelete = CASCADE,
+                        onUpdate = CASCADE
+                        ),////////////am decomentat
                 @ForeignKey(
                         entity = City.class,
                         parentColumns = {"idCity"},
@@ -33,25 +33,20 @@ import androidx.room.PrimaryKey;
                         onUpdate = CASCADE
                 )},
         indices = {@Index(value ={"idService"},unique = true),
-                    @Index(value = {"id_Fk_City","id_Fk_Job"})})
+                    @Index(value = {"id_Fk_User","id_Fk_City","id_Fk_Job"})})
 public class Service {
     @PrimaryKey()
     private Integer idService;
 
     private Integer  id_Fk_Job;
-//
-//    @ForeignKey
-//            (
-//                    entity = City.class,
-//                    parentColumns = "idCity",
-//                    childColumns = "id_FkCity",
-//                    onDelete = CASCADE,
-//                    onUpdate = CASCADE
-//            )
-//    private Integer id_FkCity;
-//
     private Integer  id_Fk_City;
     private Integer  id_Fk_User;
+
+    @ColumnInfo(name = "price")
+    private Double price;
+
+    @ColumnInfo(name = "description")
+    private String description;
 
     @ColumnInfo(name = "experienceYears")
     private Integer experienceYears;
@@ -72,11 +67,16 @@ public class Service {
 //        ++ newIdService;
 //    }
 
-    public Service(Job job, City city, @NonNull User user, @NonNull Integer experienceYears, @NonNull String workSchedule) {
+    public Service(@NonNull Integer id_Fk_Job, @NonNull Integer id_Fk_City, @NonNull Integer id_Fk_User , @NonNull Double price, @NonNull String description, @NonNull Integer experienceYears, @NonNull String workSchedule) {
         this.idService = newIdService;
-        this.id_Fk_Job = job.getIdJob();
-        this.id_Fk_City = city.getIdCity();
-        this.id_Fk_User = user.getIdUser();
+        this.id_Fk_Job = id_Fk_Job;
+        this.id_Fk_City = id_Fk_City;
+        this.id_Fk_User = id_Fk_User;
+//        this.id_Fk_Job = job.getIdJob();
+//        this.id_Fk_City = city.getIdCity();
+//        this.id_Fk_User = user.getIdUser();
+        this.price = price;
+        this.description = description;
         this.experienceYears = experienceYears;
         this.workSchedule = workSchedule;
 
@@ -129,6 +129,22 @@ public class Service {
 
     public void setWorkSchedule(String workSchedule) {
         this.workSchedule = workSchedule;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public static Integer getNewIdService() {

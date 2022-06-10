@@ -63,7 +63,7 @@ public class CartAndHistoryRVAAdapter extends ListAdapter<CartAndHistory , CartA
         TextView cartAndHistoryIdServiceTV;
         TextView cartAndHistoryTypeTV;
         TextView cartAndHistoryDateTV;
-        
+
 
         ViewHolder(@NonNull View itemView) {
             super(itemView);

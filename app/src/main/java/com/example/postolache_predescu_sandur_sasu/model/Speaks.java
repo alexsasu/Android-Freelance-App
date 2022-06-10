@@ -2,11 +2,12 @@ package com.example.postolache_predescu_sandur_sasu.model;
 
 import static androidx.room.ForeignKey.CASCADE;
 
+import androidx.annotation.NonNull;
 import androidx.room.Entity;
 import androidx.room.ForeignKey;
 import androidx.room.PrimaryKey;
 
-@Entity(primaryKeys = {"id_fk_User", "idLanguage"},
+@Entity(primaryKeys = {"id_fK_User", "id_fK_Language"},
         tableName = "speaksTable",
         foreignKeys = {
         @ForeignKey(
@@ -25,10 +26,10 @@ import androidx.room.PrimaryKey;
         )})
 public class Speaks {
 
-    @PrimaryKey()
+    @NonNull
     public Integer id_fK_User;
 
-    public Speaks(Integer speaksIdFK) {
+    public Speaks() {
 
     }
 
@@ -48,7 +49,7 @@ public class Speaks {
         this.id_fK_Language = id_fK_Language;
     }
 
-    @PrimaryKey()
+    @NonNull
     public Integer id_fK_Language;
 
     public Speaks(User user, Language language) {

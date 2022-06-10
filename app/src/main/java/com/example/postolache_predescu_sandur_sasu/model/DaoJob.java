@@ -10,7 +10,7 @@ import androidx.lifecycle.LiveData;
 
 public interface DaoJob {
     @Insert
-    void insert(Job model);
+    void insertJob(Job model);
     
     @Update
     void update(Job model);
@@ -23,5 +23,15 @@ public interface DaoJob {
     
     @Query("SELECT * FROM jobTable ORDER BY domainOfWork ASC")
     LiveData<List<Job>> getAllJobs();
+
+    @Query("SELECT * FROM jobTable WHERE idJob=:id")
+    Job getJobById(Integer id);
+
+    @Query("SELECT idJob FROM jobTable WHERE domainOfWork=:domain")
+    Integer getIdJobByDomain(String domain);
+
+    @Query("SELECT COUNT(domainOfWork) FROM jobTable WHERE domainOfWork=:domain")
+    Integer domainExistOrNot(String domain);
 }
+
     

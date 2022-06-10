@@ -8,7 +8,7 @@ public class SpeaksRepository {
 
     private DaoSpeaks dao;
     private LiveData<List<Speaks>> allOfSpeakss;
-    
+
     public SpeaksRepository(Application application) {
         SpeaksDatabase db = SpeaksDatabase.getInstance(application);
         dao = db.Dao();

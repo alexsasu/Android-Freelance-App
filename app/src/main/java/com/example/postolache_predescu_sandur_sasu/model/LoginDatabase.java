@@ -1,30 +1,32 @@
 package com.example.postolache_predescu_sandur_sasu.model;
+
 import android.content.Context;
 import android.os.AsyncTask;
+
 import androidx.annotation.NonNull;
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
-@Database(entities = {CartAndHistory.class, User.class, Service.class, City.class, Job.class}, version = 1)
-public abstract class CartAndHistoryDatabase extends RoomDatabase {
+@Database(entities = {Login.class,Register.class}, version = 1)
+public abstract class LoginDatabase extends RoomDatabase {
+    private static LoginDatabase instance;
+    public abstract DaoLogin Dao();
 
-    private static CartAndHistoryDatabase instance;
-    public abstract DaoCartAndHistory Dao();
-    public static synchronized CartAndHistoryDatabase getInstance(Context context) {
+    public static synchronized LoginDatabase getInstance(Context context) {
 
         if (instance == null) {
-
             instance =
                     Room.databaseBuilder(context.getApplicationContext(),
-                            CartAndHistoryDatabase.class, "cartAndHistory_database")
+                            LoginDatabase.class, "login_database")
                             .fallbackToDestructiveMigration()
                             .addCallback(roomCallback)
                             .build();
         }
         return instance;
     }
+
     private static RoomDatabase.Callback roomCallback = new RoomDatabase.Callback() {
         @Override
         public void onCreate(@NonNull SupportSQLiteDatabase db) {
@@ -32,9 +34,10 @@ public abstract class CartAndHistoryDatabase extends RoomDatabase {
             new PopulateDbAsyncTask(instance).execute();
         }
     };
+
     private static class PopulateDbAsyncTask extends AsyncTask<Void, Void, Void> {
-        PopulateDbAsyncTask(CartAndHistoryDatabase instance) {
-            DaoCartAndHistory dao = instance.Dao();
+        PopulateDbAsyncTask(LoginDatabase instance) {
+            DaoLogin dao = instance.Dao();
         }
         @Override
         protected Void doInBackground(Void... voids) {
@@ -42,4 +45,3 @@ public abstract class CartAndHistoryDatabase extends RoomDatabase {
         }
     }
 }
-

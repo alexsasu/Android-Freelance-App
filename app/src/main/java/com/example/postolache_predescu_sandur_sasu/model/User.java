@@ -1,12 +1,19 @@
 package com.example.postolache_predescu_sandur_sasu.model;
 
+import static androidx.room.ForeignKey.CASCADE;
+
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
+import androidx.room.ForeignKey;
 import androidx.room.Index;
 import androidx.room.PrimaryKey;
 
-@Entity(tableName = "userTable", indices = {@Index(value ="idUser", unique = true)})
+//@Entity(tableName = "userTable", indices = {@Index(value ="idUser", unique = true)})
+
+@Entity(tableName = "userTable",
+        indices = {@Index(value ="idUser", unique = true)})
+
 public class User {
 
     @PrimaryKey()

@@ -28,7 +28,6 @@ public class CityRVAAdapter extends ListAdapter<City, CityRVAAdapter.ViewHolder>
 
         @Override
         public boolean areContentsTheSame(City oldItem, City newItem) {
-            // below line is to check the course name, description and course duration.
             return oldItem.getName().equals(newItem.getName());
         }
     };

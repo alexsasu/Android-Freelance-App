@@ -11,13 +11,13 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.postolache_predescu_sandur_sasu.R;
 
 public class UserRVAAdapter extends ListAdapter<User, UserRVAAdapter.ViewHolder> {
-    
+
     private OnItemClickListener listener;
-    
+
     public UserRVAAdapter() {
         super(DIFF_CALLBACK);
     }
-    
+
     private static final DiffUtil.ItemCallback<User> DIFF_CALLBACK = new DiffUtil.ItemCallback<User>() {
         @Override
         public boolean areItemsTheSame(User oldItem, User newItem) {
@@ -26,7 +26,7 @@ public class UserRVAAdapter extends ListAdapter<User, UserRVAAdapter.ViewHolder>
 
         @Override
         public boolean areContentsTheSame(User oldItem, User newItem) {
-            
+
             return oldItem.getType().equals(newItem.getType()) &&
                     oldItem.getEmail().equals(newItem.getEmail()) &&
                     oldItem.getPassword().equals(newItem.getPassword()) &&
@@ -40,7 +40,7 @@ public class UserRVAAdapter extends ListAdapter<User, UserRVAAdapter.ViewHolder>
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        
+
         View item = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.user_rv_item, parent, false);
         return new ViewHolder(item);
@@ -58,7 +58,7 @@ public class UserRVAAdapter extends ListAdapter<User, UserRVAAdapter.ViewHolder>
         holder.userDescriptionTV.setText(model.getDescription());
         holder.userPhoneNumberTV.setText(model.getPhoneNumber());
     }
-    
+
     public User getUserAt(int position) {
         return getItem(position);
     }
@@ -77,11 +77,11 @@ public class UserRVAAdapter extends ListAdapter<User, UserRVAAdapter.ViewHolder>
             userLastNameTV = itemView.findViewById(R.id.idTVUserLastName);
             userDescriptionTV = itemView.findViewById(R.id.idTVUserDescription);
             userPhoneNumberTV = itemView.findViewById(R.id.idTVUserPhoneNumber);
-            
+
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    
+
                     int position = getAdapterPosition();
                     if (listener != null && position != RecyclerView.NO_POSITION) {
                         listener.onItemClick(getItem(position));

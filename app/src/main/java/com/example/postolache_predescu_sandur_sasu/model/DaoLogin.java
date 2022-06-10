@@ -5,25 +5,24 @@ import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
-
 import java.util.List;
 
 @androidx.room.Dao
-public interface DaoSpeaks {
+public interface DaoLogin extends DaoRegister {
 
     @Insert
-    void insert(Speaks model);
+    void insert(Login model);
 
     @Update
-    void update(Speaks model);
+    void update(Login model);
 
     @Delete
-    void delete(Speaks model);
+    void delete(Login model);
 
-    @Query("DELETE FROM speaksTable")
-    void deleteAllSpeakss();
+    @Query("DELETE FROM login_table")
+    void deleteAllLogins();
 
-    @Query("SELECT * FROM speaksTable ORDER BY id_fK_User ASC")
-    LiveData<List<Speaks>> getAllSpeakss();
+    @Query("SELECT * FROM login_table")
+    LiveData<List<Login>> getAllLogins();
 
 }

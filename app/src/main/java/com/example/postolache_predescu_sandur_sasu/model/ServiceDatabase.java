@@ -7,7 +7,7 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
-@Database(entities = {Service.class,City.class,Job.class}, version = 1)
+@Database(entities = {Service.class,City.class,Job.class,User.class}, version = 1)
 public abstract class ServiceDatabase extends RoomDatabase {
     private static ServiceDatabase instance;
     public abstract ServiceDao Dao();

@@ -17,56 +17,54 @@ public class CityRepository {
         dao = database.Dao();
         allCities = dao.getAllCities();
     }
+    public Integer nameExistOrNot(String numele){return dao.nameExistOrNot(numele);}
+    public Integer getIdCityByName(String numele){return dao.getIdCityByName(numele);}
 
-    // creating a method to insert the data to our database.
-    public void insert(City model) {
+    public void insertCity(City model) {
         new InsertCityAsyncTask(dao).execute(model);
     }
 
-    // creating a method to update data in database.
     public void update(City model) {
-        new UpdateCourseAsyncTask(dao).execute(model);
+        new UpdateCityAsyncTask(dao).execute(model);
     }
 
-    // creating a method to delete the data in our database.
+
     public void delete(City model) {
-        new DeleteCourseAsyncTask(dao).execute(model);
+        new DeleteCityAsyncTask(dao).execute(model);
     }
 
-    // below is the method to delete all the courses.
+
     public void deleteallCities() {
         new DeleteallCitiesAsyncTask(dao).execute();
     }
 
-    // below method is to read all the courses.
     public LiveData<List<City>> getallCities() {
         return allCities;
     }
 
-    // we are creating a async task method to insert new course.
+    //nou modificat
+    public City getCityById(Integer id){
+        return dao.getCityById(id);
+    }
+
     private static class InsertCityAsyncTask extends AsyncTask<City, Void, Void> {
         private DaoCity dao;
-
         private InsertCityAsyncTask(DaoCity dao) {
             this.dao = dao;
         }
-
         @Override
         protected Void doInBackground(City... model) {
-            // below line is use to insert our modal in dao.
-            dao.insert(model[0]);
+            dao.insertCity(model[0]);
             return null;
         }
     }
 
-    // we are creating a async task method to update our course.
-    private static class UpdateCourseAsyncTask extends AsyncTask<City, Void, Void> {
-        private DaoCity dao;
 
-        private UpdateCourseAsyncTask(DaoCity dao) {
+    private static class UpdateCityAsyncTask extends AsyncTask<City, Void, Void> {
+        private DaoCity dao;
+        private UpdateCityAsyncTask(DaoCity dao) {
             this.dao = dao;
         }
-
         @Override
         protected Void doInBackground(City... models) {
             dao.update(models[0]);
@@ -74,24 +72,20 @@ public class CityRepository {
         }
     }
 
-    // we are creating a async task method to delete course.
-    private static class DeleteCourseAsyncTask extends AsyncTask<City, Void, Void> {
-        private DaoCity dao;
 
-        private DeleteCourseAsyncTask(DaoCity dao) {
+    private static class DeleteCityAsyncTask extends AsyncTask<City, Void, Void> {
+        private DaoCity dao;
+        private DeleteCityAsyncTask(DaoCity dao) {
             this.dao = dao;
         }
-
         @Override
         protected Void doInBackground(City... models) {
-            // below line is use to delete
-            // our course modal in dao.
             dao.delete(models[0]);
             return null;
         }
     }
 
-    // we are creating a async task method to delete all courses.
+
     private static class DeleteallCitiesAsyncTask extends AsyncTask<Void, Void, Void> {
         private DaoCity dao;
         private DeleteallCitiesAsyncTask(DaoCity dao) {
@@ -99,8 +93,6 @@ public class CityRepository {
         }
         @Override
         protected Void doInBackground(Void... voids) {
-            // on below line calling method
-            // to delete all courses.
             dao.deleteAllCities();
             return null;
         }

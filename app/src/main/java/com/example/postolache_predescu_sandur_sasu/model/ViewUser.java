@@ -16,11 +16,14 @@ public class ViewUser extends AndroidViewModel {
         repository = new UserRepository(application);
         allUsers = repository.getAllUsers();
     }
-    
+
+    public Integer getTypeByEmail(String emailul){return repository.getTypeByEmail(emailul);}
+
+    public User getUserInfoByEmail(String emailul){return repository.getUserInfoByEmail(emailul);}
     public void insert(User model) {
         repository.insert(model);
     }
-    
+
     public void update(User model) {
         repository.update(model);
     }
@@ -33,8 +36,15 @@ public class ViewUser extends AndroidViewModel {
         repository.deleteAllUsers();
     }
 
+    public void updateEmail(String firstNameIn,String lastNameIn,String descriptionIn,String phoneNumberIn,String email)
+    { repository.updateEmail(firstNameIn,lastNameIn,descriptionIn,phoneNumberIn,email);}
+
     public LiveData<List<User>> getAllUsers() {
         return allUsers;
     }
+
+    public User getUserByEmail(String email){return repository.getUserByEmail(email);}
+
+    public void deleteUserByEmail(String emailul){repository.deleteUserByEmail(emailul);}
 }
 

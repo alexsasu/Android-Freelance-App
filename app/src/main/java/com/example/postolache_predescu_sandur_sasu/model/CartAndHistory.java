@@ -9,8 +9,7 @@ import androidx.room.ForeignKey;
 import androidx.room.Index;
 import androidx.room.PrimaryKey;
 
-import java.time.LocalDate;
-import java.util.Date;
+import java.sql.Date;
 
 
 @Entity(tableName = "cartAndHistoryTable",
@@ -33,13 +32,13 @@ import java.util.Date;
         indices = @Index({"idUtility", "id_FK_User", "id_Fk_Service"}))
 
 public class CartAndHistory {
-    @PrimaryKey()
+    @NonNull
     private Integer idUtility;
 
-    @PrimaryKey()
+    @NonNull
     private Integer  id_FK_User;
 
-    @PrimaryKey()
+    @NonNull
     private Integer  id_Fk_Service;
 
     @ColumnInfo(name = "type")
@@ -49,26 +48,26 @@ public class CartAndHistory {
     private String feedback;
 
     @ColumnInfo(name = "date")
-    private Date date;
+    private String date;
 
     private static Integer newIdUtility = 1;
 
-    public CartAndHistory(User user, Service service, @NonNull Integer type, String feedback) {
+    public CartAndHistory(@NonNull Integer  id_FK_User,@NonNull Integer  id_Fk_Service, @NonNull Integer type,String date, String feedback) {
         this.idUtility = newIdUtility;
-        this.id_FK_User = user.getIdUser();
-        this.id_Fk_Service = service.getIdService();
+        this.id_FK_User = id_FK_User;
+        this.id_Fk_Service = id_Fk_Service;
         this.type = type;
-        this.date = new Date();
+        this.date = (new Date((new java.util.Date()).getTime())).toString();
 
         if (this.type == 1)
-            this.feedback = feedback;
+            this.feedback = feedback; //history
         else
-            this.feedback = null;
+            this.feedback = null; //cart
 
         ++ newIdUtility;
     }
 
-    public CartAndHistory(Integer utilityId) {
+    public CartAndHistory() {
     }
 
     @Override
@@ -123,11 +122,11 @@ public class CartAndHistory {
         this.feedback = feedback;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 

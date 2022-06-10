@@ -19,9 +19,16 @@ public class ViewJob extends AndroidViewModel {
         repository = new JobRepository(application);
         allJobs = repository.getAllJobs();
     }
-    
-    public void insert(Job model) {
-        repository.insert(model);
+    public Integer domainExistOrNot(String domain)
+    {
+        return repository.domainExistOrNot(domain);
+    }
+    public Integer getIdJobByDomain(String domain){return repository.getIdJobByDomain(domain);}
+    public Job getJobById(Integer id){
+        return repository.getJobById(id);
+    }
+    public void insertJob(Job model) {
+        repository.insertJob(model);
     }
     
     public void update(Job model) {

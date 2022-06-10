@@ -10,41 +10,38 @@ import java.util.List;
 
 public class ViewCity extends AndroidViewModel {
 
-    // creating a new variable for course repository.
     private CityRepository repository;
 
-    // below line is to create a variable for live
-    // data where all the courses are present.
     private LiveData<List<City>> allCities;
 
-    // constructor for our view modal.
     public ViewCity(@NonNull Application application) {
         super(application);
         repository = new CityRepository(application);
         allCities = repository.getallCities();
     }
 
-    // below method is used to insert the data to our repository.
-    public void insert(City model) {
-        repository.insert(model);
+    public void insertCity(City model) {
+        repository.insertCity(model);
     }
 
-    // below line is to update data in our repository.
     public void update(City model) {
         repository.update(model);
     }
 
-    // below line is to delete the data in our repository.
+
     public void delete(City model) {
         repository.delete(model);
     }
 
-    // below method is to delete all the courses in our list.
     public void deleteAllCities() {
         repository.deleteallCities();
     }
+    public Integer getIdCityByName(String numele)
+    {return repository.getIdCityByName(numele);}
 
-    // below method is to get all the courses in our list.
+    public City getCityById(Integer id){
+        return repository.getCityById(id);
+    }
     public LiveData<List<City>> getAllCity() {
         return allCities;
     }
