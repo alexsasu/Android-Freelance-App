@@ -4,7 +4,6 @@ import android.app.Application;
 import android.os.AsyncTask;
 import androidx.lifecycle.LiveData;
 import androidx.room.ColumnInfo;
-
 import com.example.postolache_predescu_sandur_sasu.data.ServiceCard;
 import com.example.postolache_predescu_sandur_sasu.data.ServiceInfo;
 
