@@ -7,7 +7,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.postolache_predescu_sandur_sasu.R;
 
 public class UserRVAAdapter extends ListAdapter<User, UserRVAAdapter.ViewHolder> {
