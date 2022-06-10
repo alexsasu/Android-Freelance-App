@@ -13,7 +13,8 @@ public abstract class CartAndHistoryDatabase extends RoomDatabase {
     private static CartAndHistoryDatabase instance;
     public abstract DaoCartAndHistory Dao();
     public static synchronized CartAndHistoryDatabase getInstance(Context context) {
-
+        
+        
         if (instance == null) {
 
             instance =
