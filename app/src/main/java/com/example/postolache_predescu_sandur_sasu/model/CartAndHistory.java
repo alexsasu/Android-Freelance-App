@@ -11,7 +11,6 @@ import androidx.room.PrimaryKey;
 
 import java.sql.Date;
 
-
 @Entity(tableName = "cartAndHistoryTable",
         primaryKeys = {"idUtility", "id_FK_User", "id_Fk_Service"},
         foreignKeys = {
