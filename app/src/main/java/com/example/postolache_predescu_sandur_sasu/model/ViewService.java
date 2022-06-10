@@ -5,7 +5,6 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
 import com.example.postolache_predescu_sandur_sasu.data.ServiceCard;
-
 import java.util.List;
 
 public class ViewService extends AndroidViewModel {
