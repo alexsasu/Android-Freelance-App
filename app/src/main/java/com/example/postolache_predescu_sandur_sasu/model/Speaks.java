@@ -5,6 +5,7 @@ import static androidx.room.ForeignKey.CASCADE;
 import androidx.annotation.NonNull;
 import androidx.room.Entity;
 import androidx.room.ForeignKey;
+
 import androidx.room.PrimaryKey;
 
 @Entity(primaryKeys = {"id_fK_User", "id_fK_Language"},
