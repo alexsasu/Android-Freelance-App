@@ -5,7 +5,6 @@ import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
-
 import com.example.postolache_predescu_sandur_sasu.data.ServiceCard;
 import com.example.postolache_predescu_sandur_sasu.data.ServiceInfo;
 
