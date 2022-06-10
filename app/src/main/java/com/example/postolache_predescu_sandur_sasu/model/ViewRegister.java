@@ -4,7 +4,6 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import java.util.List;
-
 public class ViewRegister extends AndroidViewModel {
     
     private RegisterRepository repository;
