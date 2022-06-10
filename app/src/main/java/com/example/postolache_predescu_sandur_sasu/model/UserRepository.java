@@ -7,6 +7,7 @@ import java.util.List;
 public class UserRepository {
 
     private DaoUser dao;
+    
     private LiveData<List<User>> allUsers;
 
     public UserRepository(Application application) {
