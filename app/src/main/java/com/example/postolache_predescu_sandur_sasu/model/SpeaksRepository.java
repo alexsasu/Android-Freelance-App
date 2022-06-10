@@ -7,6 +7,7 @@ import java.util.List;
 public class SpeaksRepository {
 
     private DaoSpeaks dao;
+    
     private LiveData<List<Speaks>> allOfSpeakss;
 
     public SpeaksRepository(Application application) {
