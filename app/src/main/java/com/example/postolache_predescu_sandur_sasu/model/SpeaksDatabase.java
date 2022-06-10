@@ -8,6 +8,7 @@ import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
 @Database(entities = {Speaks.class, User.class, Language.class}, version = 1)
+
 public abstract class SpeaksDatabase extends RoomDatabase {
 
     private static SpeaksDatabase instance;
