@@ -88,6 +88,6 @@ The result is seen in the top bar of the application:
 
 ## Contributors:
 - Postolache Andreea-Miruna:
-- Predescu Denisa: predescu.denisa2001@gmail.com
+- Predescu Denisa: predescu.denisa2001@gmail.com, https://github.com/denisapredescu
 - Sandu Raluca-Ioana:
 - Sasu Alexandru-Cristian:
