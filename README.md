@@ -27,10 +27,20 @@ The project respects the java coding standards (link: https://google.github.io/s
 ## Bug Reporting
 
 -- As any simple insert method, register (user insert in database) accepts the same email multiple times.
-
-![bug1_2](https://user-images.githubusercontent.com/86727047/173199164-17a1b77d-baf0-4997-a2cf-64406a4695f5.png)
-![bug1](https://user-images.githubusercontent.com/86727047/173199165-787a4f3a-9b52-4fbe-9e6d-591fc37b06c8.png)
 ![telefoane_bug1](https://user-images.githubusercontent.com/86727047/173199355-72dc9ee5-de97-405e-8809-9538094b6caa.png)
+-- The solution si to create a method that verify if an email is already in database.
+![bug1_solution_bunaaa](https://user-images.githubusercontent.com/86727047/173199414-96b24aa8-a9f5-4ad8-9cae-d3e25b2b9b99.png)
+Presenting the method 
+
+- in Dao
+![bug1_solution-dao](https://user-images.githubusercontent.com/86727047/173199429-e7775eb8-f490-4d1d-b810-82f31ca0604a.png)
+
+- in Repository
+![bug1_solution-repo](https://user-images.githubusercontent.com/86727047/173199450-6c1dd490-aae4-4a68-90c9-f2d4678f91c6.png)
+
+- in View
+![bug1_solution-view](https://user-images.githubusercontent.com/86727047/173199457-2d9cca2e-44da-4f9f-b644-7c20e37e7b21.png)
+
 
 
 ## Contributors:
