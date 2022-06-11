@@ -30,6 +30,8 @@ The project respects the java coding standards (link: https://google.github.io/s
 
 ![bug1_2](https://user-images.githubusercontent.com/86727047/173199164-17a1b77d-baf0-4997-a2cf-64406a4695f5.png)
 ![bug1](https://user-images.githubusercontent.com/86727047/173199165-787a4f3a-9b52-4fbe-9e6d-591fc37b06c8.png)
+![telefoane_bug1](https://user-images.githubusercontent.com/86727047/173199355-72dc9ee5-de97-405e-8809-9538094b6caa.png)
+
 
 ## Contributors:
 - Postolache Andreea-Miruna:
