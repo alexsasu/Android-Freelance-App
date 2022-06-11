@@ -11,15 +11,25 @@ https://trello.com/b/aCB5CLqO/mds
 ## User Stories
 
 ## Build Tools
-![apk_1](https://user-images.githubusercontent.com/86727047/173198634-e38f416d-b05d-4e66-9f99-804fa0a8927d.png)
 
-![apk_2](https://user-images.githubusercontent.com/86727047/173198646-d5272595-cd4f-4b20-bc16-edd4dbed4d9a.png)
+The project is developed using Andorid Studio that has a Gradle-based building tool. 
+To build our project in an APK go to Build -> Build Bundle(s)/APK(s) -> Build APK(s) 
+![apk_1](https://user-images.githubusercontent.com/86727047/173198634-e38f416d-b05d-4e66-9f99-804fa0a8927d.png)
+To verify, go in the folder of the project and see if the 2 files ware generated:
+![apk-2-bunaa](https://user-images.githubusercontent.com/86727047/173198709-a197945f-c17f-40d7-a0ad-192c7b31f305.png)
 
 ## Code Standards
+
+The project respects the java coding standards (link: https://google.github.io/styleguide/javaguide.html): the names are sugestive, the classes name are nouns starting with upercase letters (e.g LoginActivity, ServiceAdapter etc), methods names are verb-noun combinations or verbs starting with lowercase letters (e.g insert, checkEmailPass, getServiceById).
 
 ## Design Patterns
 
 ## Bug Reporting
+
+-- As any simple insert method, register (user insert in database) accepts the same email multiple times.
+
+![bug1_2](https://user-images.githubusercontent.com/86727047/173199164-17a1b77d-baf0-4997-a2cf-64406a4695f5.png)
+![bug1](https://user-images.githubusercontent.com/86727047/173199165-787a4f3a-9b52-4fbe-9e6d-591fc37b06c8.png)
 
 ## Contributors:
 - Postolache Andreea-Miruna:
