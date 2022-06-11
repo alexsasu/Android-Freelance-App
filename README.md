@@ -39,8 +39,8 @@ As any simple insert method, register (user insert in database) accepts the same
 The solution si to create a method that verify if an email is already in database.
 ![bug1_solution_bunaaa](https://user-images.githubusercontent.com/86727047/173199414-96b24aa8-a9f5-4ad8-9cae-d3e25b2b9b99.png)
 
-![bug1_resolved1](https://user-images.githubusercontent.com/86727047/173200359-8984ac57-9cfc-4200-92a9-9c481e762275.png)
-![bug1_resolved2](https://user-images.githubusercontent.com/86727047/173200361-0b2a7b96-c2f0-492f-9cb3-29198286d993.png)
+![bug1_resolved1](https://user-images.githubusercontent.com/86727047/173200677-c39ff8f8-3117-4fad-b1c8-6a42fe65a4ac.png)
+
 
 ***Presenting the method*** 
   - in Dao:
