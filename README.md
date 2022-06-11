@@ -25,6 +25,10 @@ The project respects the java coding standards (link: https://google.github.io/s
 
 ## Design Patterns
 
+We used a singleton approach for database handling for each class, e.g:
+
+![singleton](https://user-images.githubusercontent.com/86727047/173200479-0e1492fb-8e2c-4b36-8571-5fcba8c68207.png)
+
 ## Bug Reporting
 
 ***Bug 1***
@@ -35,8 +39,8 @@ As any simple insert method, register (user insert in database) accepts the same
 The solution si to create a method that verify if an email is already in database.
 ![bug1_solution_bunaaa](https://user-images.githubusercontent.com/86727047/173199414-96b24aa8-a9f5-4ad8-9cae-d3e25b2b9b99.png)
 
-![bug1_resolved1](https://user-images.githubusercontent.com/86727047/173199660-2ed9010e-1739-433b-8868-d836dc945008.png)
-![bug1_resolved2](https://user-images.githubusercontent.com/86727047/173199662-881b5185-91be-4e15-9ba9-25007c43e4d1.png)
+![bug1_resolved1](https://user-images.githubusercontent.com/86727047/173200359-8984ac57-9cfc-4200-92a9-9c481e762275.png)
+![bug1_resolved2](https://user-images.githubusercontent.com/86727047/173200361-0b2a7b96-c2f0-492f-9cb3-29198286d993.png)
 
 ***Presenting the method*** 
   - in Dao:
@@ -73,7 +77,7 @@ Neither the first method nor the second worked.
 
 ![bug4_sol2](https://user-images.githubusercontent.com/86727047/173200069-84d74e5f-c99b-4ced-b8bb-9c7c18e1a53f.png)
 
-The third one was a success:
+- The third one was a success:
 
 ![bug4_sol3](https://user-images.githubusercontent.com/86727047/173200081-75c4d989-f582-44f1-9d6a-e14d1eb3ff0d.png)
 
