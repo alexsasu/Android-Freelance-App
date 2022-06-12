@@ -16,7 +16,7 @@ https://trello.com/b/aCB5CLqO/mds
 
 Conceptual diagram:
 
-![Diagrama Conceptuala](https://user-images.githubusercontent.com/87432371/173207369-d1c2236f-6585-4d01-a3b9-cbd611cf6658.png)
+![Diagrama Conceptuala (actuala)](https://user-images.githubusercontent.com/87432371/173258771-51060e95-bff6-4fcd-8d19-2bb2862b9642.png)
 
 UML diagram:
 
