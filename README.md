@@ -36,7 +36,7 @@ UML diagram:
 
 6. As a seller, I want to be able to provide personal details about me/my team, so that the buyer can get in touch with me/us more easily.
 
-7. As a seller, I want to get notified via e-mail, so that I can be informed that a buyer reserved my services.
+7. As a buyer, I want to be notified via a pop-up notification: when I log out and there are services left in my cart, and when the app notifies the sellers that I have purchased their services.
 
 8. As a buyer, I want to have a shopping cart, so that I can keep track of the services that I want to purchase.
 
