@@ -141,5 +141,5 @@ Sample insertions after the fix:
 ## Contributors:
 - Postolache Andreea-Miruna: https://github.com/postolache-andreea-miruna
 - Predescu Denisa: https://github.com/denisapredescu, predescu.denisa2001@gmail.com
-- Sandu Raluca-Ioana: https://github.com/ralucsandu
+- Sandu Raluca-Ioana: https://github.com/ralucsandu, ralucsandu01@gmail.com
 - Sasu Alexandru-Cristian: https://github.com/alexsasu, sasualex1@gmail.com
