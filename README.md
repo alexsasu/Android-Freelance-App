@@ -144,10 +144,10 @@ Sample insertions after the fix:
 
 ## Automation Testing
 We have also implemented automatic testing using JUnit5 in order to check whether the Getters and Setters function properly. One such example is shown below:
-![1](https://user-images.githubusercontent.com/79568914/173418746-244bdaad-f67a-45a5-8314-e12cbe2db7e4.jpg)
+![teste_mds](https://user-images.githubusercontent.com/79594745/173419118-6f25a1f8-9619-4989-b2ef-1d014617f9f6.png)
 
 ## Contributors:
-- Postolache Andreea-Miruna: https://github.com/postolache-andreea-miruna
+- Postolache Andreea-Miruna: https://github.com/postolache-andreea-miruna, mirunapami@yahoo.com
 - Predescu Denisa: https://github.com/denisapredescu, predescu.denisa2001@gmail.com
 - Sandu Raluca-Ioana: https://github.com/ralucsandu, ralucsandu01@gmail.com
 - Sasu Alexandru-Cristian: https://github.com/alexsasu, sasualex1@gmail.com
