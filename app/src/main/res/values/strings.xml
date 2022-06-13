@@ -1,0 +1,47 @@
+<resources>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="app_name">Freelance4All</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">NExt</string>
+    <string name="title_activity_login">Freelance4All</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_email">Not a valid email</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_register">Freelance4All</string>
+
+    <string name="services">VIEW SERVICES</string>
+    <string name="cart">Cart</string>
+    <string name="history">History</string>
+    <string name="title_activity_cart">User Cart</string>
+    <string name="title_activity_history">Purchased Services</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="delete">My profile</string>
+    <string name="no_items_in_cart">There are no items in the cart!</string>
+
+    <string name="title_activity_seller_services">My Services</string>
+    <string name="title_activity_seller_service">My Service</string>
+    <string name="title_activity_services">Services</string>
+    <string name="title_activity_service">Service Details</string>
+    <string name="title_activity_new_service">New Service</string>
+    <string name="title_activity_seller_details">Seller Details</string>
+    <string name="seller_services">Seller Services</string>
+    <string name="title_activity_my_profile">My Profile</string>
+    <string name="my_profile">My Profile</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="register_as_seller">Register as seller</string>
+    <string name="register_as_buyer">Register as buyer</string>
+    <string name="description">Description</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign-in</string>
+    <string name="register">Register</string>
+</resources>

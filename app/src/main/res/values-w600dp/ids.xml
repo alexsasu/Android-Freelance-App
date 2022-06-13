@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="register_back_button" type="id" />
+    <item name="register_next_button" type="id" />
+    <item name="register_login_button" type="id" />
+    <item name="register_title_text" type="id" />
+    <item name="register_slide_text" type="id" />
+    <item name="register_fullname" type="id" />
+    <item name="register_firstName" type="id" />
+    <item name="register_lastName" type="id" />
+    <item name="register_fullName" type="id" />
+    <item name="register_email" type="id" />
+    <item name="register_password" type="id" />
+    <item name="register_description" type="id" />
+    <item name="register_phoneNumber" type="id" />
+</resources>

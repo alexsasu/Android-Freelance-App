@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.freelance4all">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Freelance4all">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/list_service" />
+
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:exported="false"
+            android:label="@string/title_activity_my_profile" />
+        <activity
+            android:name=".activity.SellerDetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_seller_details" />
+        <activity
+            android:name=".activity.NewServiceActivity"
+            android:exported="false"
+            android:label="@string/title_activity_new_service" />
+        <activity
+            android:name=".activity.ServicesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_services"
+            android:theme="@style/Theme.Freelance4all.NoActionBar" />
+        <activity
+            android:name=".activity.ServiceActivity"
+            android:exported="false"
+            android:label="@string/title_activity_service" />
+        <activity
+            android:name=".activity.SellerServicesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_seller_services"
+            android:theme="@style/Theme.Freelance4all.NoActionBar" />
+        <activity
+            android:name=".activity.SellerServiceActivity"
+            android:exported="false"
+            android:label="@string/title_activity_seller_service" />
+        <activity
+            android:name=".activity.HistoryActivity"
+            android:exported="false"
+            android:label="@string/title_activity_history"
+            android:theme="@style/Theme.Freelance4all.NoActionBar" />
+        <activity
+            android:name=".activity.CartActivity"
+            android:exported="false"
+            android:label="@string/title_activity_cart"
+            android:theme="@style/Theme.Freelance4all.NoActionBar" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Freelance4all.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
