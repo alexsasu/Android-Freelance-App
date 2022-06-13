@@ -10,11 +10,11 @@
 
 
     <TextView
-        android:id="@+id/service"
+        android:id="@+id/job"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Service Title"
+        android:text="Service"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,8 +31,21 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/serviceTitle"
-        app:layout_constraintTop_toBottomOf="@+id/serviceTitle" />
+        app:layout_constraintStart_toEndOf="@+id/job"
+        app:layout_constraintTop_toBottomOf="@+id/job" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/person"
+        app:layout_constraintTop_toBottomOf="@+id/person" />
+
 
     <ImageButton
         android:id="@+id/deleteButton"

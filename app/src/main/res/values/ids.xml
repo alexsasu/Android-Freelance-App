@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="new_service_description" type="id" />
+    <item name="new_service_price" type="id" />
+    <item name="new_service_experience_years" type="id" />
+    <item name="new_service_work_schedule" type="id" />
+    <item name="new_service_city_availability" type="id" />
+    <item name="new_service_job_name" type="id" />
+    <item name="new_service_email" type="id" />
+</resources>

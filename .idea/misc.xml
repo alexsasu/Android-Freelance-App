@@ -3,7 +3,81 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Freelance4ALL/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
+        <entry key="..\:/MDS-proiect-main/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/Freelance4ALL/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/Freelance4ALL/app/src/main/res/layout/activity_cart.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/Freelance4ALL/app/src/main/res/layout/activity_history.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/Freelance4ALL/app/src/main/res/layout/activity_login.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/Freelance4ALL/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/Freelance4ALL/app/src/main/res/layout/activity_profile.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/Freelance4ALL/app/src/main/res/layout/activity_register.xml" value="0.18" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/Freelance4ALL/app/src/main/res/layout/activity_seller_details.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/Freelance4ALL/app/src/main/res/layout/activity_seller_services.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/Freelance4ALL/app/src/main/res/layout/activity_services.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/Freelance4ALL/app/src/main/res/layout/list_item_cart.xml" value="0.3046875" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/Freelance4ALL/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1515" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/Freelance4ALL/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1515" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/drawable-v24/btn_service_info_style.xml" value="0.14" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_cart.xml" value="0.10740740740740741" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_history.xml" value="0.10740740740740741" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_new_cart_and_history.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_new_city.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_new_job.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_new_language.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_new_service.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_new_service_alex.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_new_speaks.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_new_user.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_register.xml" value="0.246875" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_retailer_register.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_seller_details.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_seller_service.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_seller_services.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_service.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_service_card.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/activity_services.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/cart_and_history_rv_item.xml" value="0.33" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/city_rv_item.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/content_login.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/content_main.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/content_register.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/fragment_second.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/job_rv_item.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/language_rv_item.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/list_item_cart.xml" value="0.10740740740740741" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/list_item_history.xml" value="0.10740740740740741" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/service_rv_item.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/speaks_rv_item.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/layout/user_rv_item.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Metode de Dezvoltare Software/Proiect/MDS-proiect-main/app/src/main/res/menu/menu_main.xml" value="0.2" />
         <entry key="..\:/Users/Alex/IdeaProjects/Facultate/Anul II/Semestrul II/Programare Avansata pe Obiecte/SDM_Project/app/src/main/res/layout/activity_retailer_register.xml" value="0.12318840579710146" />
+        <entry key="..\:/Users/denis/Desktop/Freelance4ALL/app/src/main/res/layout/activity_cart.xml" value="0.10344827586206896" />
+        <entry key="..\:/Users/denis/Desktop/Freelance4ALL/app/src/main/res/layout/activity_history.xml" value="0.12" />
+        <entry key="..\:/Users/denis/Desktop/Freelance4ALL/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/denis/Desktop/Freelance4ALL/app/src/main/res/layout/activity_new_service_alex.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/denis/Desktop/Freelance4ALL/app/src/main/res/layout/activity_seller_details.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/denis/Desktop/Freelance4ALL/app/src/main/res/layout/activity_seller_service.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/denis/Desktop/Freelance4ALL/app/src/main/res/layout/activity_seller_services.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/denis/Desktop/Freelance4ALL/app/src/main/res/layout/activity_service.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/denis/Desktop/Freelance4ALL/app/src/main/res/layout/activity_service_card.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/denis/Desktop/Freelance4ALL/app/src/main/res/layout/activity_services.xml" value="0.25" />
+        <entry key="..\:/Users/denis/Desktop/Freelance4ALL/app/src/main/res/layout/service_rv_item.xml" value="0.12588652482269502" />
+        <entry key="..\:/Users/denis/Desktop/MDS-proiect-main-discord/app/src/main/res/layout/activity_login.xml" value="0.259963768115942" />
+        <entry key="..\:/Users/denis/Desktop/MDS-proiect-main-discord/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/denis/Desktop/MDS-proiect-main-discord/app/src/main/res/layout/activity_new_cart_and_history.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/denis/Desktop/MDS-proiect-main-discord/app/src/main/res/layout/activity_new_service.xml" value="0.33" />
+        <entry key="..\:/Users/denis/Desktop/MDS-proiect-main-discord/app/src/main/res/layout/activity_new_service_alex.xml" value="0.25" />
+        <entry key="..\:/Users/denis/Desktop/MDS-proiect-main-discord/app/src/main/res/layout/activity_register.xml" value="0.259963768115942" />
+        <entry key="..\:/Users/denis/Desktop/MDS-proiect-main-discord/app/src/main/res/layout/activity_service.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/denis/Desktop/MDS-proiect-main-discord/app/src/main/res/layout/activity_services.xml" value="0.22" />
+        <entry key="..\:/Users/denis/Desktop/MDS-proiect-main-discord/app/src/main/res/layout/cart_and_history_rv_item.xml" value="0.5" />
+        <entry key="..\:/Users/denis/Desktop/MDS-proiect-main-discord/app/src/main/res/layout/language_rv_item.xml" value="0.1852355072463768" />
+        <entry key="..\:/Users/denis/Desktop/MDS-proiect-main-discord/app/src/main/res/layout/list_item_cart.xml" value="0.17806484295845998" />
       </map>
     </option>
   </component>

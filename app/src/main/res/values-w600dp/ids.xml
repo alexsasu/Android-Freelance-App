@@ -10,7 +10,6 @@
     <item name="register_lastName" type="id" />
     <item name="register_fullName" type="id" />
     <item name="register_email" type="id" />
-    <item name="register_username" type="id" />
     <item name="register_password" type="id" />
     <item name="register_description" type="id" />
     <item name="register_phoneNumber" type="id" />
