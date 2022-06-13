@@ -10,6 +10,7 @@ Freelance4ALL is, as the name suggests, a freelance platform that allows people 
 Our app is meant to promote freelancing, as more and more people are getting tired of the corporate life and wish to have their own little business, while not having to deal with the likes of traveling long distances every day, attending a lot of meetings, dealing with grumpy bosses, and so on.
 
 ## Demo
+https://youtu.be/06oEPp7oZdM
 
 ## Trello Link
 https://trello.com/b/aCB5CLqO/mds
