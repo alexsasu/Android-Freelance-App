@@ -142,7 +142,7 @@ Sample insertions after the fix:
 ![final_name_4](https://user-images.githubusercontent.com/87432371/173207300-6d2dd953-fcec-4fd5-9e24-5ae8835639de.png)
 
 ## Contributors:
-- Postolache Andreea-Miruna: https://github.com/postolache-andreea-miruna
+- Postolache Andreea-Miruna: https://github.com/postolache-andreea-miruna, mirunapami@yahoo.com
 - Predescu Denisa: https://github.com/denisapredescu, predescu.denisa2001@gmail.com
 - Sandu Raluca-Ioana: https://github.com/ralucsandu, ralucsandu01@gmail.com
 - Sasu Alexandru-Cristian: https://github.com/alexsasu, sasualex1@gmail.com
