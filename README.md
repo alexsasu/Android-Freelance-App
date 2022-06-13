@@ -142,7 +142,7 @@ Sample insertions after the fix:
 ![initial_name_4](https://user-images.githubusercontent.com/87432371/173207298-ed86ca78-585e-458f-8c5e-2831e25d2680.png)
 ![final_name_4](https://user-images.githubusercontent.com/87432371/173207300-6d2dd953-fcec-4fd5-9e24-5ae8835639de.png)
 
-**Automation Testing**
+## Automation Testing
 We have also implemented automatic testing using JUnit5 in order to check whether the Getters and Setters function properly. One such example is shown below:
 ![1](https://user-images.githubusercontent.com/79568914/173418746-244bdaad-f67a-45a5-8314-e12cbe2db7e4.jpg)
 
