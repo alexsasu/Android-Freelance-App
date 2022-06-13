@@ -10,6 +10,7 @@ Freelance4ALL is, as the name suggests, a freelance platform that allows people 
 Our app is meant to promote freelancing, as more and more people are getting tired of the corporate life and wish to have their own little business, while not having to deal with the likes of traveling long distances every day, attending a lot of meetings, dealing with grumpy bosses, and so on.
 
 ## Demo
+You can see the demo for our application by clicking the link below:
 https://youtu.be/06oEPp7oZdM
 
 ## Trello Link
@@ -141,8 +142,12 @@ Sample insertions after the fix:
 ![initial_name_4](https://user-images.githubusercontent.com/87432371/173207298-ed86ca78-585e-458f-8c5e-2831e25d2680.png)
 ![final_name_4](https://user-images.githubusercontent.com/87432371/173207300-6d2dd953-fcec-4fd5-9e24-5ae8835639de.png)
 
+**Automation Testing**
+We have also implemented automatic testing using JUnit5 in order to check whether the Getters and Setters function properly. One such example is shown below:
+![1](https://user-images.githubusercontent.com/79568914/173418746-244bdaad-f67a-45a5-8314-e12cbe2db7e4.jpg)
+
 ## Contributors:
-- Postolache Andreea-Miruna: https://github.com/postolache-andreea-miruna, mirunapami@yahoo.com
+- Postolache Andreea-Miruna: https://github.com/postolache-andreea-miruna
 - Predescu Denisa: https://github.com/denisapredescu, predescu.denisa2001@gmail.com
 - Sandu Raluca-Ioana: https://github.com/ralucsandu, ralucsandu01@gmail.com
 - Sasu Alexandru-Cristian: https://github.com/alexsasu, sasualex1@gmail.com
