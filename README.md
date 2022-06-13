@@ -1,4 +1,6 @@
 # Freelance4ALL
+![logo](https://user-images.githubusercontent.com/79568914/173367555-244ff5c9-46ff-49c7-a53d-4a746a8b8b6d.gif)
+
 ## Application Description
 
 Android application developed in Android Studio, at the Faculty of Mathematics and Informatics from the University of Bucharest, for freelancing purposes, bearing similarities with the [Fiverr](https://www.fiverr.com/) website.
