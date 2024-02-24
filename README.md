@@ -3,7 +3,7 @@
 
 ## Application Description
 
-Android application developed in Android Studio, at the Faculty of Mathematics and Informatics from the University of Bucharest, for freelancing purposes, bearing similarities with the [Fiverr](https://www.fiverr.com/) website.
+Android application developed in Android Studio, for the Software Development Methods course taken in the 2nd year at the Faculty of Mathematics and Computer Science from the University of Bucharest, for freelancing purposes, bearing similarities with the [Fiverr](https://www.fiverr.com/) website.
 
 Freelance4ALL is, as the name suggests, a freelance platform that allows people from around the world to advertise and sell personal services. Every user has a profile (containing info such as: email, profile description, phone number), and can opt between two types of roles: buyer and seller. Sellers can add any new service (consisting of: web design, music making, game development, art, etc) and modify their existent services, while buyers can purchase any service by adding it to a shopping cart and then checking out. In addition, buyers will get notified via a pop-up notification: when they log out and there are services left in their cart, and when the app notifies the sellers that the respective buyers have purchased their services. Moreover, buyers can also visualize the history of their purchases, and offer them a star-based rating.
 
